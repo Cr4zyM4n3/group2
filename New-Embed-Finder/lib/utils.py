@@ -108,7 +108,6 @@ def make_embed(group_info):
 value=f"**Name**: `{group_info['name']}`\n**MemberCount**: `{group_info['memberCount']}`\n**Robux**:  `Not Visible`\n\n"),
          dict(name="**Clothing**", value=f"**Clothing Count**: `{clothingcount(group_info['id'])}`\n\n"), 
          dict(name="**Games**", value=f"**Game Count**: `{gamecount(group_info['id'])}`\n**Most Visited Game's Visits**: `{mostvisitegame(group_info['id'])}`\n\n"),
-         dict(name="**Description**", value=f"`{group_info['description']}`\n\n"),
          dict(name="**URL**", value=f"https://roblox.com/groups/{group_info['id']}")
         ],
         author=dict(
